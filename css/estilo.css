@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+li {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    line-height: 90px;
+    display: inline-block;
+    border-radius: 50px;
+    background: rgb(255, 103, 14);
+}
+
+li:nth-child(2n) {
+    background: rgb(245, 110, 175);
+}
